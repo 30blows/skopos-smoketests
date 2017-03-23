@@ -2,7 +2,8 @@ node {
     // change that to the docker repository where build artifacts will be
     // pushed. If you are using Docker Hub, that would look like
     // your-username/sample-service
-    def DOCKER_REPO = "datagridsys/skopos"
+    //def DOCKER_REPO = "datagridsys/skopos"
+    def DOCKER_REPO = "30blows/skopos-smoketests"
 
     stage "build"
     checkout scm
